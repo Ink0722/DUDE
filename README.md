@@ -6,9 +6,9 @@
 
 Codebase for the ACL 2026 submission on *Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces*. This repository provides a full pipeline for training and evaluating web-browsing click judges under deceptive UI conditions.
 
-- **Stage 1**: evaluator training
-- **Stage 2**: experience optimization with summarized feedback
-- **Inference**: run the agent with an evaluator in the loop
+- **Stage 1**: evaluator training.
+- **Stage 2**: experience optimization with summarized feedback.
+- **Inference**: run the agent with an evaluator in the loop.
 
 This repository does not ship pretrained checkpoints. Users are expected to run Stage 1 locally and may optionally run Stage 2 for the full pipeline.
 
@@ -27,8 +27,9 @@ The figure below shows the overall framework of the paper at a glance.
 
 ## Release Status 📌
 
-- `Paper` link: placeholder kept in the badge and in the section below until the official paper URL is public.
-- `BibTeX`: placeholder kept in the citation section until the final metadata is available.
+- **The paper, code, and dataset are all complete now.**
+- **Currently, there is no content that requires further updates.**
+- **[2026.05.12]** We have updated the link to Paper *Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces* on the arXiv preprint server, Paper URL: https://arxiv.org/abs/2605.09497.
 
 ## Quickstart 🚀
 
@@ -213,21 +214,23 @@ By default, the runner:
 
 ## Paper 📝
 
-The official paper link will be added here once the ACL 2026 publication page is available.
+The paper link is available now.
 
-- Paper URL: `TBD`
+- Paper URL: https://arxiv.org/abs/2605.09497
 
 ## Citation 📚
 
 If you use this repository, please cite the associated ACL 2026 paper.
 
 ```bibtex
-@inproceedings{tbd_acl2026_dont_click_that,
-  title     = {Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces},
-  author    = {TBD},
-  booktitle = {Proceedings of the Association for Computational Linguistics (ACL)},
-  year      = {2026},
-  url       = {TBD}
+@misc{zhang2026dontclickthatteaching,
+      title={Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces}, 
+      author={Yilin Zhang and Yingkai Hua and Chunyu Wei and Xin Wang and Yueguo Chen},
+      year={2026},
+      eprint={2605.09497},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.09497}, 
 }
 ```
 
