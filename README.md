@@ -1,6 +1,7 @@
 # Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces
 <p align="center">
-  <a href="https://arxiv.org/abs/2605.09497"><img src="https://img.shields.io/badge/Paper-ACL%202026-blue" height="23"></a>
+  <!-- <a href="https://arxiv.org/abs/2605.09497"><img src="https://img.shields.io/badge/Paper-ACL%202026-blue" height="23"></a> -->
+  <a href="https://arxiv.org/abs/2605.09497"><img src="https://img.shields.io/badge/arXiv-2605.09497-b31b1b?logo=arxiv&logoColor=white" height="23"></a>
   <a href="https://huggingface.co/datasets/Ink0722/Real-UI-Clickboxes"><img src="https://img.shields.io/badge/Hugging%20Face-Real%20UI%20Clickboxes-FFD21E?logo=huggingface&logoColor=white" height="23"></a>
 </p>
 
