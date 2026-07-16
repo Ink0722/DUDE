@@ -1,11 +1,11 @@
 # Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces
 <p align="center">
-  <!-- <a href="https://arxiv.org/abs/2605.09497"><img src="https://img.shields.io/badge/Paper-ACL%202026-blue" height="23"></a> -->
+  <a href="https://aclanthology.org/2026.acl-long.310/"><img src="https://img.shields.io/badge/ACL%20Anthology-2026.acl--long.310-ED1C24?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2OCA0NiI%2BPHBhdGggZD0ibTQxLjk3NzU1MyAwdjMuMDE1OGgtMzQuNDkwNjQ3Ni03LjQ4NjkwNTR2Ny40ODQ5OSAyNy45Nzc4OCA3LjUyMTMzaDcuNDg2OTA1NCA0Mi4wMTM4OTY2IDcuNDg2OTA2IDExLjAxMjI5MnYtMTUuMDA2MzJoLTExLjAxMjI5MnYtMjAuNDkyODktNy40ODQ5OWMwLTEuNTczNjkgMC0xLjI1NDAyIDAtMy4wMTU4em0tMjYuOTY3Mzk4IDE3Ljk4NTc4aDI2Ljk2NzM5OHYxMy4wMDc5aC0yNi45NjczOTh6IiBmaWxsPSIjZmZmIi8%2BPC9zdmc%2B" height="23" alt="ACL Anthology 2026.acl-long.310"></a>
   <a href="https://arxiv.org/abs/2605.09497"><img src="https://img.shields.io/badge/arXiv-2605.09497-b31b1b?logo=arxiv&logoColor=white" height="23"></a>
   <a href="https://huggingface.co/datasets/Ink0722/Real-UI-Clickboxes"><img src="https://img.shields.io/badge/Hugging%20Face-Real%20UI%20Clickboxes-FFD21E?logo=huggingface&logoColor=white" height="23"></a>
 </p>
 
-Codebase for the ACL 2026 submission on *Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces*. This repository provides a full pipeline for training and evaluating web-browsing click judges under deceptive UI conditions.
+Official codebase for the ACL 2026 paper *Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces*. This repository provides a full pipeline for training and evaluating web-browsing click judges under deceptive UI conditions.
 
 - **Stage 1**: evaluator training.
 - **Stage 2**: experience optimization with summarized feedback.
@@ -29,8 +29,8 @@ The figure below shows the overall framework of the paper at a glance.
 ## Release Status 📌
 
 - **The paper, code, and dataset are all complete now.**
-- **Currently, there is no content that requires further updates.**
-- **[2026.05.12]** We have updated the link to Paper *Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces* on the arXiv preprint server, Paper URL: https://arxiv.org/abs/2605.09497.
+- **[2026.07.16]** The paper is now available in the ACL Anthology: https://aclanthology.org/2026.acl-long.310/.
+- **[2026.05.12]** The arXiv preprint was released: https://arxiv.org/abs/2605.09497.
 
 ## Quickstart 🚀
 
@@ -215,13 +215,44 @@ By default, the runner:
 
 ## Paper 📝
 
-The paper link is available now.
+The paper is available through the ACL Anthology and arXiv.
 
-- Paper URL: https://arxiv.org/abs/2605.09497
+- ACL Anthology: https://aclanthology.org/2026.acl-long.310/
+- PDF: https://aclanthology.org/2026.acl-long.310.pdf
+- DOI: https://doi.org/10.18653/v1/2026.acl-long.310
+- arXiv: https://arxiv.org/abs/2605.09497
 
 ## Citation 📚
 
 If you use this repository, please cite the associated ACL 2026 paper.
+
+ACL Anthology citation:
+
+```bibtex
+@inproceedings{zhang-etal-2026-dont-click,
+    title = "Don{'}t Click That: Teaching Web Agents to Resist Deceptive Interfaces",
+    author = "Zhang, Yilin  and
+      Hua, Yingkai  and
+      Wei, Chunyu  and
+      Wang, Xin  and
+      Chen, Yueguo",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.310/",
+    doi = "10.18653/v1/2026.acl-long.310",
+    pages = "6830--6852",
+    ISBN = "979-8-89176-390-6"
+}
+```
+
+arXiv citation:
 
 ```bibtex
 @misc{zhang2026dontclickthatteaching,
